@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="angular/1.4.8/angular/angular.min.js"></script>
+    <script src="angular/ui-router/release/angular-ui-router.min.js"></script>
+    <script src="angular/oclazyload/src/ocLazyLoad.min.js"></script>
+    <!-- oclazyload -->
+    <script src="app/app.config.js"></script>
+    <script src="app/route.config.js"></script>
+</head>
+<body ng-app="pkcms">
+
+    <div>
+        <a href="#/main">主页</a>
+        <a href="#/adminUser" >admin user</a>
+    </div>
+    <div ui-view></div>
+</body>
+</html>
